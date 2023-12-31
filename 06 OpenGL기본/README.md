@@ -183,7 +183,6 @@ int gluGet(GLenum state);
 - EventHadler : Callback (콜백)
 
 ### 4.6. glut 콜백 등록 함수
-
 | 함수명  | 설명 |
 | --- | --- |
 | glutDisplayFunc() | 현재 윈도우에 Display 처리를 위한 콜백 설정 |
