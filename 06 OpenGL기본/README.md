@@ -194,8 +194,7 @@ int gluGet(GLenum state);
 | glutidleFunc() | 현재 윈도우에 Idle 상태 처리를 위한 콜백 설정 (Idle 상태 처리) |
 | glutEntryFunc() | 현재 윈도우에 Mouse Enter / Leave 처리를 위한 콜백 설정 |
 | glutTimerFunc() | 현재 윈도우에 타이머 처리를 위한 콜백 설정 |
-| glutSetMenu() | 메뉴 설정과 관련된 콜백 기능도 지원
-glutAddMenuEntry(), glutAttachMenu(), glutAddSubMenu() 등 |
+| glutSetMenu() | 메뉴 설정과 관련된 콜백 기능도 지원 glutAddMenuEntry(), glutAttachMenu(), glutAddSubMenu() 등 |
 
 ## 5. gl 함수 : 상태 변수 정보 획득
 
