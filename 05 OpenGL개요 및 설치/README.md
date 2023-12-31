@@ -9,8 +9,8 @@
 해당 링크에서
 
 [freeglut Windows Development Libraries](https://www.transmissionzero.co.uk/software/freeglut-devel/)
+![image](https://github.com/Jiryeong29/LearnOpenGL-00/assets/52111476/95462ec8-d420-4913-85fd-6d30d582cdfc)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0104449c-0dac-4ae2-8999-739ab3004a7e/5f66ce7d-b629-4baf-9fef-b701baa70a9f/Untitled.png)
 
 사진과 같은 부분을 다운 받는다
 
@@ -22,11 +22,12 @@
 
 OpenGL을 실행하기 위해서 컴파일러도 설정을 진행해야한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0104449c-0dac-4ae2-8999-739ab3004a7e/ad18d8f0-b9e9-4bfe-945a-ae9bd724d38e/Untitled.png)
+![image](https://github.com/Jiryeong29/LearnOpenGL-00/assets/52111476/fb957f18-f883-4146-8d16-6469e6bf72f5)
+`프로젝트 > LearnOpenGL속성(P) > VC++디렉터리` 로 들어가서
+![image](https://github.com/Jiryeong29/LearnOpenGL-00/assets/52111476/a7ba95c2-f784-4be6-ad6c-3d2d2f3b3db8)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0104449c-0dac-4ae2-8999-739ab3004a7e/cb0b1fc5-56d7-4de2-b8cc-a4a6183c696c/Untitled.png)
 
-`프로젝트 > LearnOpenGL속성(P) > VC++디렉터리` 로 들어가서 `포함디렉터리` 와 `라이브러리 디렉터리` 의 속성을 변경해줘야 한다.
+ `포함디렉터리` 와 `라이브러리 디렉터리` 의 속성을 변경해줘야 한다.
 
 포함 디렉터리 → `C:/OpenGL/include` 
 
@@ -59,8 +60,8 @@ OpenGL을 실행하기 위해서 컴파일러도 설정을 진행해야한다.
 - **GLUAUX(OpenGL Auxiliary Library)**
     - 플랫폼 독립적 윈도우 제어 기능 및 그리는 기능 등을 포함한 라이브러리
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0104449c-0dac-4ae2-8999-739ab3004a7e/78af6f9f-cba4-4229-b5ad-dd625648630b/Untitled.png)
-    
+![image](https://github.com/Jiryeong29/LearnOpenGL-00/assets/52111476/a26e8df7-fc0c-4153-b4c5-4d2aedbb2b32)
+
     ## 기타
     
     강의에서는 
