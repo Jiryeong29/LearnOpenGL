@@ -187,8 +187,7 @@ int gluGet(GLenum state);
 | --- | --- |
 | glutDisplayFunc() | 현재 윈도우에 Display 처리를 위한 콜백 설정 |
 | glutMouseFunc() | 현재 윈도우에 Mouse 클릭 처리를 위한 콜백 설정 |
-| glutMotionFunc() | 현재 윈도우에 Mouse 이동 처리를 위한 콜백 설정(마우스 이동시 발생)
- |
+| glutMotionFunc() | 현재 윈도우에 Mouse 이동 처리를 위한 콜백 설정(마우스 이동시 발생) |
 | glutKeyboardFunc() | 현재 윈도우에 Keyboard 입력 처리를 위한 콜백 설정 |
 | glutSpecialFunc() | 현재 윈도우에 특수 Keyboard 입력 처리를 위한 콜백 설정 |
 | glutReshapeFunc() | 현재 윈도우의 크기 변경에 대한 Reshape 콜백 설정 |
