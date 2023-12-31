@@ -61,28 +61,27 @@ OpenGL을 실행하기 위해서 컴파일러도 설정을 진행해야한다.
     - 플랫폼 독립적 윈도우 제어 기능 및 그리는 기능 등을 포함한 라이브러리
     
 ![image](https://github.com/Jiryeong29/LearnOpenGL-00/assets/52111476/a26e8df7-fc0c-4153-b4c5-4d2aedbb2b32)
+## 기타
 
-    ## 기타
-    
-    강의에서는 
-    
-    ```cpp
-    #include <glut.h>
-    
-    #include <GL/gl.h>
-    
-    #include <GL/glu.h>
-    ```
-    
-    으로 되어있는데 나는 헤더파일이 대문자 소문자가 변경되어있어서 아래와 같이 헤더파일을 추가해주었다. 문제없이 잘 작동한다.
-    
-    ```cpp
-    #include <glut.h>
-    
-    #include <gl/GL.h>
-    
-    #include <gl/GLU.h>
-    ```
-    
-    [참고 사이트]
-    [OpenGL 라이브러리](https://blog.naver.com/gongtong/150135569215)
+강의에서는 
+
+```cpp
+#include <glut.h>
+
+#include <GL/gl.h>
+
+#include <GL/glu.h>
+```
+
+으로 되어있는데 나는 헤더파일이 대문자 소문자가 변경되어있어서 아래와 같이 헤더파일을 추가해주었다. 문제없이 잘 작동한다.
+
+```cpp
+#include <glut.h>
+
+#include <gl/GL.h>
+
+#include <gl/GLU.h>
+```
+
+[참고 사이트]
+[OpenGL 라이브러리](https://blog.naver.com/gongtong/150135569215)    
