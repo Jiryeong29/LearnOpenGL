@@ -183,21 +183,18 @@ int gluGet(GLenum state);
 - EventHadler : Callback (콜백)
 
 ### 4.6. glut 콜백 등록 함수
-
 | 함수명  | 설명 |
 | --- | --- |
 | glutDisplayFunc() | 현재 윈도우에 Display 처리를 위한 콜백 설정 |
 | glutMouseFunc() | 현재 윈도우에 Mouse 클릭 처리를 위한 콜백 설정 |
-| glutMotionFunc() | 현재 윈도우에 Mouse 이동 처리를 위한 콜백 설정(마우스 이동시 발생)
- |
+| glutMotionFunc() | 현재 윈도우에 Mouse 이동 처리를 위한 콜백 설정(마우스 이동시 발생) |
 | glutKeyboardFunc() | 현재 윈도우에 Keyboard 입력 처리를 위한 콜백 설정 |
 | glutSpecialFunc() | 현재 윈도우에 특수 Keyboard 입력 처리를 위한 콜백 설정 |
 | glutReshapeFunc() | 현재 윈도우의 크기 변경에 대한 Reshape 콜백 설정 |
 | glutidleFunc() | 현재 윈도우에 Idle 상태 처리를 위한 콜백 설정 (Idle 상태 처리) |
 | glutEntryFunc() | 현재 윈도우에 Mouse Enter / Leave 처리를 위한 콜백 설정 |
 | glutTimerFunc() | 현재 윈도우에 타이머 처리를 위한 콜백 설정 |
-| glutSetMenu() | 메뉴 설정과 관련된 콜백 기능도 지원
-glutAddMenuEntry(), glutAttachMenu(), glutAddSubMenu() 등 |
+| glutSetMenu() | 메뉴 설정과 관련된 콜백 기능도 지원 glutAddMenuEntry(), glutAttachMenu(), glutAddSubMenu() 등 |
 
 ## 5. gl 함수 : 상태 변수 정보 획득
 
